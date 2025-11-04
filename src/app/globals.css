@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
-:root {
+@plugin "daisyui" {
+  /* themes: light --default, dark --prefersdark, cupcake, retro; */
+  /* exclude: rootscrollgutter; */
+  themes: all;
+}
+
+/*:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,3 +30,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+*/

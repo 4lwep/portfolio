@@ -6,7 +6,7 @@ function Header() {
     <div className="navbar bg-base-500 shadow-sm">
       <div className="flex-1">
         <Link href="/" className="btn btn-ghost text-xl">
-          Inicio
+          Portfolio
         </Link>
         <ThemeSelect />
       </div>
