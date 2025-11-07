@@ -1,9 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
 function Header() {
   return (
-    <div className="navbar bg-[#082567] shadow-sm fixed">
+    <div className="navbar bg-[#082567] shadow-sm fixed z-2">
       <div className="flex-1">
         <Link href="/" className="w-[50] text-xl">
           <Image
