@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Intro from "@/components/Intro";
-import RadialProgress from "@/components/RadialProgress";
 import Slides from "@/components/Slides";
 import AutoCarousel from "@/components/AutoCarrousel";
 import Project from "@/components/Project";

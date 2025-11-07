@@ -1,8 +1,5 @@
 "use client";
 
-import Intro from "./Intro";
-import RadialProgress from "./RadialProgress";
-
 function Slides({ components }) {
   return (
     <div className="relative">
