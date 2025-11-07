@@ -5,11 +5,11 @@ function Header() {
   return (
     <div className="navbar bg-[#082567] shadow-sm fixed">
       <div className="flex-1">
-        <Link href="/" className="btn btn-ghost text-xl">
+        <Link href="/" className="w-[50] text-xl">
           <Image
             className="rounded-[9999]"
             src="/cactus-logo.jpg"
-            alt="Profile picture"
+            alt="Cactus logo"
             width={50}
             height={50}
             priority
