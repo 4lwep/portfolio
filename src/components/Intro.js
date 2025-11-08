@@ -45,9 +45,11 @@ export default function Intro() {
               Ver Proyectos
             </button>
           </Link>
-          <button className="px-8 py-3 bg-zinc-800/50 hover:bg-zinc-700/60 border border-zinc-600 text-zinc-200 font-semibold rounded-lg transition-all duration-200 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,255,255,0.15)]">
-            Contactar
-          </button>
+          <Link href="#social">
+            <button className="px-8 py-3 bg-zinc-800/50 hover:bg-zinc-700/60 border border-zinc-600 text-zinc-200 font-semibold rounded-lg transition-all duration-200 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,255,255,0.15)]">
+              Contactar
+            </button>
+          </Link>
         </div>
 
         <div className="flex flex-wrap gap-3 justify-center md:justify-start mt-6">

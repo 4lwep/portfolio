@@ -22,7 +22,7 @@ function Header() {
         Proyectos
       </Link>
 
-      <Link href="" className="mr-10">
+      <Link href="#social" className="mr-10">
         Sobre mi
       </Link>
     </div>
