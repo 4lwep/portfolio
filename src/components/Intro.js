@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Intro() {
   return (
@@ -39,9 +40,11 @@ export default function Intro() {
         </p>
 
         <div className="flex flex-wrap gap-4 justify-center md:justify-start mt-4">
-          <button className="px-8 py-3 bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/50 text-emerald-300 font-semibold rounded-lg transition-all duration-200 hover:scale-105 hover:shadow-[0_0_20px_rgba(16,185,129,0.5)]">
-            Ver Proyectos
-          </button>
+          <Link href="#projects">
+            <button className="px-8 py-3 bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/50 text-emerald-300 font-semibold rounded-lg transition-all duration-200 hover:scale-105 hover:shadow-[0_0_20px_rgba(16,185,129,0.5)]">
+              Ver Proyectos
+            </button>
+          </Link>
           <button className="px-8 py-3 bg-zinc-800/50 hover:bg-zinc-700/60 border border-zinc-600 text-zinc-200 font-semibold rounded-lg transition-all duration-200 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,255,255,0.15)]">
             Contactar
           </button>

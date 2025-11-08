@@ -5,8 +5,8 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <div className="navbar bg-[#082567] shadow-sm fixed z-2">
-      <div className="flex-1">
+    <div className="navbar bg-[#0D1117] shadow-sm fixed z-2">
+      <div className="ml-5">
         <Link href="/" className="w-[50] text-xl">
           <Image
             className="rounded-[9999]"
@@ -18,6 +18,13 @@ function Header() {
           />
         </Link>
       </div>
+      <Link href="#projects" className="ml-auto mr-10">
+        Proyectos
+      </Link>
+
+      <Link href="" className="mr-10">
+        Sobre mi
+      </Link>
     </div>
   );
 }

@@ -24,7 +24,10 @@ export default function Projects() {
   ];
 
   return (
-    <div className="flex flex-col items-center h-full justify-center gap-20 bg-gradient-to-b from-zinc-950 via-zinc-900 to-black text-zinc-100">
+    <div
+      id="projects"
+      className="flex flex-col items-center h-full justify-center gap-20 bg-gradient-to-b from-zinc-950 via-zinc-900 to-black text-zinc-100"
+    >
       <h1 className="text-3xl">Mis proyectos</h1>
       <AutoCarousel projects={projects} />
     </div>
